@@ -1,0 +1,9 @@
+.txtUser {
+    -fx-background-color: #2b5c7a; /* Fondo del campo */
+    -fx-text-fill: white; /* Color del texto */
+}
+
+.txtPwd {
+    -fx-background-color: #2b5c7a; /* Fondo del campo */
+    -fx-text-fill: white; /* Color del texto */
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="813.0" prefWidth="1223.0" style="-fx-background-color: #2b5c7a;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketsservices.MenuController">
+   <children>
+      <Pane layoutY="3.0" prefHeight="802.0" prefWidth="1223.0" style="-fx-background-color: #2b5c7a;">
+         <children>
+            <VBox layoutX="61.0" layoutY="161.0" prefHeight="68.0" prefWidth="143.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/tickettracking.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#ColaController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Mis Tickets" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="298.0" layoutY="160.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="168.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/supportagent.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#soporteController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Crear Ticket Soporte" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="528.0" layoutY="157.0" prefHeight="200.0" prefWidth="157.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="181.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/person_add_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#UsuariosController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Agregar Usuarios" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="61.0" layoutY="386.0" prefHeight="200.0" prefWidth="168.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="167.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/barras.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Historial de Ticket" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="757.0" layoutY="160.0" prefHeight="200.0" prefWidth="168.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="168.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/userconfig.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#RolesController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Roles" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="11.0" prefHeight="117.0" prefWidth="1056.0" style="-fx-background-color: #2b5c7a;" text="SISTEMA DE ATENCION POR TICKETS" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="767.0" prefHeight="34.0" prefWidth="464.0" text="Copyright © 2025 ErickSoft Solutions Derechos Reservados." textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font></Label>
+            <VBox layoutX="990.0" layoutY="381.0" prefHeight="187.0" prefWidth="161.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="168.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/logout.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#LoginController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Salir" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="992.0" layoutY="160.0" prefHeight="200.0" prefWidth="168.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="173.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/manufacturing_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#ParametrosController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Configuracion" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="298.0" layoutY="386.0" prefHeight="200.0" prefWidth="168.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="173.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/apartment_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#DepartamentosController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Departamentos" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="528.0" layoutY="386.0" prefHeight="200.0" prefWidth="161.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="173.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/webhook_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#EstadoTicketsController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Estados de Tickets" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="757.0" layoutY="386.0" prefHeight="200.0" prefWidth="161.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="173.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@imgs/editar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#NotaController" prefHeight="25.0" prefWidth="169.0" style="-fx-background-color: #2b5c7a; -fx-cursor: hand;" text="Agregar Nota a ticket" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

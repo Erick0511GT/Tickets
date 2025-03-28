@@ -1,0 +1,11 @@
+.text-field, .password-field {
+    -fx-background-color: #2b5c7a; /* Fondo azul */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el texto de sugerencia (PromptText) */
+.text-field::prompt-text, .password-field::prompt-text {
+    -fx-text-fill: rgba(255, 255, 255, 0.7); /* Blanco con opacidad */
+    -fx-font-weight: normal; /* Sin negrita */
+}

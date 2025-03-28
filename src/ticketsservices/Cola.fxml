@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="845.0" prefWidth="1230.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22.0.2" fx:controller="ticketsservices.ColaController">
+   <children>
+      <SplitPane layoutX="297.0" prefHeight="845.0" prefWidth="933.0">
+         <items>
+            <TableView>
+              <columns>
+                <TableColumn prefWidth="75.0" text="IdTicket" />
+                <TableColumn prefWidth="109.0" text="Descripcion" />
+                  <TableColumn prefWidth="109.0" text="Usuario Asignado" />
+                  <TableColumn prefWidth="109.0" text="Fecha Creacion" />
+                  <TableColumn prefWidth="109.0" text="Notas Adicionales" />
+                  <TableColumn prefWidth="109.0" text="Fecha Cierre" />
+                  <TableColumn prefWidth="109.0" text="Estado" />
+                  <TableColumn prefWidth="109.0" text="Prioridad" />
+              </columns>
+            </TableView>
+         </items>
+      </SplitPane>
+      <VBox prefHeight="237.0" prefWidth="284.0" style="-fx-background-color: #2b5c7a;">
+         <children>
+            <Label prefHeight="81.0" prefWidth="286.0" style="-fx-text-fill: #ffffff; -fx-alignment: center;" text="Mis tickets" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="45.0" />
+               </font>
+            </Label>
+            <Label prefHeight="150.0" prefWidth="283.0" style="-fx-alignment: center; -fx-text-fill: #FFFFFF;" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold Italic" size="57.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutY="258.0" prefHeight="248.0" prefWidth="284.0" style="-fx-background-color: #2b5c7a;">
+         <children>
+            <Label prefHeight="81.0" prefWidth="286.0" style="-fx-text-fill: #ffffff; -fx-alignment: center;" text="En proceso" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="45.0" />
+               </font>
+            </Label>
+            <Label prefHeight="150.0" prefWidth="283.0" style="-fx-alignment: center; -fx-text-fill: #FFFFFF;" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold Italic" size="57.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutY="528.0" prefHeight="248.0" prefWidth="284.0" style="-fx-background-color: #2b5c7a;">
+         <children>
+            <Label prefHeight="81.0" prefWidth="286.0" style="-fx-text-fill: #ffffff; -fx-alignment: center;" text="En espera" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="45.0" />
+               </font>
+            </Label>
+            <Label prefHeight="150.0" prefWidth="283.0" style="-fx-alignment: center; -fx-text-fill: #FFFFFF;" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold Italic" size="57.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

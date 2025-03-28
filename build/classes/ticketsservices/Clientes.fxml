@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="771.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/22.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketsservices.ClientesController">
+   <children>
+      <Pane layoutY="-6.0" mouseTransparent="true" prefHeight="771.0" prefWidth="935.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="265.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="NOMBRES:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="192.0" layoutY="267.0" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="329.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="APELLIDOS:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="192.0" layoutY="328.0" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="386.0" prefHeight="30.0" prefWidth="73.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="CORREO:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="192.0" layoutY="388.0" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <VBox layoutX="84.0" layoutY="40.0" prefHeight="137.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/buscar.png" />
+                     </image>
+                  </ImageView>
+                  <Button prefHeight="42.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Buscar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="244.0" layoutY="40.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="107.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/editar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Editar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="571.0" layoutY="40.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="103.0" fitWidth="111.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/guardar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Guardar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="738.0" layoutY="40.0" prefHeight="137.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="106.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/elminiar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Eliminar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="404.0" layoutY="41.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="103.0" fitWidth="111.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/CANCEL.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Cancelar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <TextArea layoutX="192.0" layoutY="438.0" prefHeight="82.0" prefWidth="640.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="465.0" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="DIRECCION:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="550.0" layoutY="265.0" prefHeight="30.0" prefWidth="51.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="NIT:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="601.0" layoutY="267.0" prefHeight="26.0" prefWidth="225.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="329.0" prefHeight="30.0" prefWidth="38.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="DPI:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="602.0" layoutY="329.0" prefHeight="26.0" prefWidth="225.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="557.0" layoutY="386.0" prefHeight="30.0" prefWidth="153.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="FECHA NACIMIENTO:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="716.0" layoutY="382.0" prefHeight="33.0" prefWidth="136.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

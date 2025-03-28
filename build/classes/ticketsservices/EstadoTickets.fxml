@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="771.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/22.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketsservices.EstadoTicketsController">
+   <children>
+      <Pane layoutY="-1.0" mouseTransparent="true" prefHeight="771.0" prefWidth="935.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="231.0" prefHeight="30.0" prefWidth="61.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="TITULO" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField alignment="TOP_LEFT" layoutX="189.0" layoutY="233.0" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #FFFFFF;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <VBox layoutX="325.0" layoutY="40.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="107.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/editar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Editar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="670.0" layoutY="40.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="103.0" fitWidth="111.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/guardar.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Guardar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="500.0" layoutY="41.0" prefHeight="137.0" prefWidth="107.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="103.0" fitWidth="111.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/CANCEL.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Cancelar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox layoutX="164.0" layoutY="38.0" prefHeight="137.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/buscar.png" />
+                     </image>
+                  </ImageView>
+                  <Button prefHeight="42.0" prefWidth="106.0" style="-fx-background-color: #2b5c7a;" text="Buscar" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <TextArea layoutX="284.0" layoutY="314.0" prefHeight="74.0" prefWidth="403.0" promptText="Escriba su descripcion del problema a solucionar" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="336.0" prefHeight="30.0" prefWidth="172.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="COMENTARIO CAMBIO ESTADO" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="251.0" layoutY="426.0" prefWidth="150.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="424.0" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #2b5c7a;" text="ESTADO:" textAlignment="CENTER" textFill="#2b5c7a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
